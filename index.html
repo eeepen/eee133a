@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EEEpen </title>
+    <link rel="icon" href="/about/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .tiles > *:nth-child(2n + 1) {
+            margin-left: clamp(30px, 7vw, 50px);
+        }
+
+        .top {
+            display: flex;
+            gap: clamp(80px, 16vw, 120px);
+        }
+    </style>
+</head>
+<body>
+<div class="stack">
+
+    <div class="top">
+        <a href="/acads"> < back </a>
+        <span style="color: #FF6A00;"> EEE 133 </span>
+    </div>
+
+    <div> Unit 1 </div>
+    <div class="tiles">
+        <div> 1a </div>  <div> <a href="1a"> Natural Response </a> </div>
+        <div> 1b </div>  <div> <a href="1b"> Complete Response </a> </div>
+        <div> 2 </div>  <div> <a href="2"> Sequential Switching </a> </div>
+        <div> 3a </div>  <div> <a href="3a"> Linear Wave Shaping </a> </div>
+        <div> 3b </div>  <div> <a href="3b"> Amplifier Wave Shaping </a> </div>
+    </div>
+
+    <div> Unit 2 </div>
+    <div class="tiles">
+        <div> 4a </div>  <div> <a href="4a"> Series & Parallel Circuits </a> </div>
+        <div> 4b </div>  <div> <a href="4b"> General Circuits </a> </div>
+        <div> 5a </div>  <div> <a href="5a"> Laplace Transform Math </a> </div>
+        <div> 5b </div>  <div> <a href="5b"> Laplace Transform Circuits </a> </div>
+        <div> 6 </div>  <div> <a href="6"> Resonance </a> </div>
+        <div> 7 </div>  <div> <a href="7"> Active Filters </a> </div>
+    </div>
+    
+    <div> Unit 3 </div>
+    <div class="tiles">
+        <div> 8 </div>  <div> <a href="8"> Transistor Switching </a> </div>
+        <div> 9 </div>  <div> <a href="9"> Switching Power Supplies </a> </div>
+        <div> 10 </div>  <div> <a href="10"> Ramps & Sinusoids </a> </div>
+        <div> 11 </div>  <div> <a href="11"> Power System Transients </a> </div>
+    </div>
+
+</div>
+</body>
+</html>

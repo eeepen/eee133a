@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EEEpen </title>
+    <link rel="icon" href="/about/icon.png">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+<div class="stack">
+
+    <div> <a href="../"> < back </a> </div>
+    <div> 9 Switching Power Supplies </div>
+    <img src="q1.png">
+    <div class="tiles">
+        <div> D = </div>  <div> <input oninput="check(this, 0.6);"> </div>
+        <div> &Delta;I<sub>o</sub> = </div>  <div> <input oninput="check_tol(this, 0.6667);"> A </div>
+        <div> I<sub>o,max</sub> = </div>  <div> <input oninput="check_tol(this, 10.33);"> A </div>
+        <div> I<sub>o,min</sub> = </div>  <div> <input oninput="check_tol(this, 9.667);"> A </div>
+    </div>
+    <div class="space"></div>
+
+    <img src="q2.png">
+    <div class="tiles">
+        <div> D = </div>  <div> <input oninput="check(this, 0.4);"> </div>
+        <div> L = </div>  <div> <input oninput="check(this, 180);"> &micro;H </div>
+        <div> L<sub>crit</sub> = </div>  <div> <input oninput="check(this, 60);"> &micro;H </div>
+    </div>
+    <div class="space"></div>
+
+</div>
+</body>
+</html>

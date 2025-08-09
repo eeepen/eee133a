@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EEEpen </title>
+    <link rel="icon" href="/about/icon.png">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+<div class="stack">
+
+    <div> <a href="../"> < back </a> </div>
+    <div> 3b Amplifier Wave Shaping </div>
+    <img src="q1_258.png">
+    <div class="tiles">
+        <div> v<sub>o</sub>(t) = </div>  <div> <input oninput="check_tol(this, -0.833);">sin<input oninput="check(this, 2);">t + <input oninput="check(this, -1.25);">t<sup>2</sup> mV </div>
+    </div>
+    <div class="space"></div>
+
+    <img src="q2_259.png">
+    <div class="tiles">
+        <div> v<sub>i</sub>(t) = </div>  <div> <input oninput="check(this, 2000);">t V, t &in; (0, 2) ms </div>
+        <div> v<sub>i</sub>(t) = </div>  <div> <input oninput="check(this, 8);"> + <input oninput="check(this, -2000);">t V, t &in; (2, 4) ms </div>
+        <div> v<sub>o</sub>(t) = </div>  <div> <input oninput="check(this, -2);"> V, t &in; (0, 2) ms </div>
+        <div> v<sub>o</sub>(t) = </div>  <div> <input oninput="check(this, 2);"> V, t &in; (2, 4) ms </div>
+    </div>
+    <div class="space"></div>
+
+    <img src="q3_309.png">
+    <div class="tiles">
+        <div> v<sub>o</sub>(t) = </div>  <div> <input oninput="check(this, -4);">e<sup>-<input class="raise" oninput="check(this, 2);">t</sup> V, t > 0 </div>
+    </div>
+    <div class="space"></div>
+
+    <img src="q4_310.png">
+    <div class="tiles">
+        <div> v(t) = </div>  <div> [ <input oninput="check(this, 40);"> + <input oninput="check(this, -40);">e<sup>-<input class="raise" oninput="check(this, 10);">t</sup> ]u(t) mV </div>
+        <div> v<sub>o</sub>(t) = </div>  <div> [ <input oninput="check(this, -40);"> + <input oninput="check(this, 40);">e<sup>-<input class="raise" oninput="check(this, 10);">t</sup> ]u(t) mV </div>
+    </div>
+    <div class="space"></div>
+
+    <img src="q5_312.png">
+    <div class="tiles">
+        <div> v<sub>o</sub>(t) = </div>  <div> [ <input oninput="check(this, 13.5);"> + <input oninput="check(this, -13.5);">e<sup>-<input class="raise" oninput="check(this, 50);">t</sup> ]u(t) V </div>
+    </div>
+    <div class="space"></div>
+
+</div>
+</body>
+</html>

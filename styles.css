@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "arial_rounded";
+    src: url("/about/arial_rounded.ttf");
+}
+
+a {
+    color: #FFE97F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFD800;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "arial_rounded", sans-serif;
+    font-size: clamp(20px, 4vw, 30px);
+    margin: clamp(10px, 3vw, 20px);
+}
+
+img {
+    width: clamp(300px, 90vw, 700px);
+}
+
+input {
+    background-color: #000000;
+    border: clamp(3px, 0.6vw, 4px) solid #808080;
+    color: #FFFFFF;
+    font-family: "arial_rounded", sans-serif;
+    font-size: clamp(20px, 4vw, 30px);
+    width: clamp(60px, 12vw, 90px);
+}
+
+.correct {
+    border-color: #00FF21;
+}
+
+.raise {
+    font-size: clamp(10px, 3vw, 20px);
+    width: clamp(30px, 7vw, 50px);
+}
+
+.space {
+    margin: clamp(30px, 6vw, 40px);
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(10px, 3vw, 20px);
+}
+
+.tiles {
+    display: grid;
+    gap: clamp(10px, 3vw, 20px);
+    grid-template-columns: max-content max-content;
+}
+
+.tiles > *:nth-child(2n + 1) {
+    text-align: right;
+}
