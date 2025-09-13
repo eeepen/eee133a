@@ -39,7 +39,7 @@ input {
 
 .raise {
     font-size: clamp(10px, 3vw, 20px);
-    width: clamp(30px, 7vw, 50px);
+    width: clamp(40px, 8vw, 60px);
 }
 
 .space {

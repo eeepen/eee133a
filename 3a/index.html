@@ -18,16 +18,16 @@
     <div class="tiles">
         <div> D is </div>  <div> <input oninput="check(this, 'off');"> for 0 < t < 1 </div>
         <div> D is </div>  <div> <input oninput="check(this, 'on');"> for 1 < t < 2 </div>
-        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, -10);"> + <input oninput="check(this, 20);">e<sup>-<input class="raise" oninput="check_tol(this, 0.0005);">[t-0]</sup> V, 0 < t < 1 </div>
-        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, 10);"> + <input oninput="check(this, -0.01);">e<sup>-<input class="raise" oninput="check(this, 5);">[t-1]</sup> V, 1 < t < 2 </div>
+        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, -10);"> + <input oninput="check(this, 20);">e<sup><input class="raise" oninput="check_tol(this, -0.0005);">[t-0]</sup> V, 0 < t < 1 </div>
+        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, 10);"> + <input oninput="check(this, -0.01);">e<sup><input class="raise" oninput="check(this, -5);">[t-1]</sup> V, 1 < t < 2 </div>
     </div>
     <div class="space"></div>
 
     <img src="q2.png">
     <div class="tiles">
-        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, 0);"> + <input oninput="check(this, 100);">e<sup>-<input class="raise" oninput="check(this, 100);">[t-0]</sup> V, 0 < t < 2 </div>
-        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, 100);"> + <input oninput="check(this, -100);">e<sup>-<input class="raise" oninput="check(this, 1);">[t-2]</sup> V, 2 < t < 4 </div>
-        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, 0);"> + <input oninput="check_tol(this, 86.47);">e<sup>-<input class="raise" oninput="check(this, 100);">[t-4]</sup> V, 4 < t < 6 </div>
+        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, 0);"> + <input oninput="check(this, 100);">e<sup><input class="raise" oninput="check(this, -100);">[t-0]</sup> V, 0 < t < 2 </div>
+        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, 100);"> + <input oninput="check(this, -100);">e<sup><input class="raise" oninput="check(this, -1);">[t-2]</sup> V, 2 < t < 4 </div>
+        <div> v<sub>c</sub>(t) = </div>  <div> <input oninput="check(this, 0);"> + <input oninput="check_tol(this, 86.47);">e<sup><input class="raise" oninput="check(this, -100);">[t-4]</sup> V, 4 < t < 6 </div>
         <div> t<sub>r</sub> = </div>  <div> <input oninput="check_tol(this, 1.416);"> s </div>
         <div> t<sub>f</sub> = </div>  <div> <input oninput="check_tol(this, 21.97);"> ms </div>
     </div>
